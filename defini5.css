@@ -1,0 +1,292 @@
+::selection {
+	
+    background: black;
+    color: lightgreen;
+    text-shadow: 1px 1px #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(35deg,#42dee9,#3f1e4d,#e2e0ec);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 6s ease-in-out infinite;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border: solid 7px #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+  
+}
+
+h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 45%;
+    left: 14%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 6%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+@keyframes cambiar {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background: #2E4053;
+    z-index: 100;
+
+}
+
+.contenedor {
+
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 90px;
+    margin-top: 290px;
+}
+
+p {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 110px;
+}
+
+li {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    right: 90px;
+    padding: 5px;
+}
+
+.image {
+
+    width: 850px;
+    height: 420px;
+    margin-right: 27vh;
+    position: relative;
+    margin-top: 1%;
+}
+
+.navbar {
+
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.logo a {
+
+    text-decoration: none;
+
+}
+
+.navbar a {
+
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+        background: #5D6D7E;
+    }
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header {
+    height: 50vh !important;
+    background: url(img/pcgaming.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.title {
+
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 40px 80px;
+    border: 2px solid #A93226;
+    color: #fff;
+    text-decoration: none;
+    background: #A93226;
+    position: relative;
+ 
+}
+
+.btn:hover {
+
+    background: none;
+
+}
+
+.btn-home {
+
+    display: flex;
+
+}
+
+.btn-home {
+
+    margin-bottom: 300px;
+    margin-right: 145vh;
+
+}
+
+.content {
+
+    height: 345vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+.box-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+
+    height: 15rem;
+    width: 20rem;
+    background: #8E44AD;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem #A93226;
+    margin: 2rem;
+
+}
+
+    .box-container .box i {
+        height: 5rem;
+        width: 2rem;
+        line-height: 5rem;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        background: #8E44AD;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .box-container .box h3 {
+
+        font-size: 20px;
+        color: #8E44AD;
+
+    }
+
+.box-container .box p{
+
+    font-size: 16px;
+    padding: 0 15px;
+
+}
+
+.contact {
+
+    background: url(img/procesador5.jpeg) no-repeat center;
+    padding-top: 150px;
+    padding-bottom: 0;
+    height: 45vh;
+   background-color: #2E4053;
+}
+
+
+
+
